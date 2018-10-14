@@ -16,3 +16,9 @@ let indices = array.valueIndex()
 for key in indices.keys.sorted() {
     print("\(key): \(indices[key]!)")
 }
+
+let strings = ["aa", "bb", "cc", "cc", "d", "dd", "bb"]
+let strIndices = strings.valueIndex()
+for key in strIndices.keys.sorted() {
+    print("\(key): \(strIndices[key]!)")
+}
